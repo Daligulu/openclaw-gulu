@@ -1,0 +1,28 @@
+# 敏感配置文件
+openclaw.json
+*.bak
+*.bak.*
+
+# 大型目录（浏览器、虚拟环境、依赖）
+playwright-browsers/
+venv-ar/
+venv-ar2/
+venv-camou/
+agent-reach-venv/
+node_modules/
+.uv-cache/
+
+# 日志和临时文件
+*.log
+logs/
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+
+# workspace状态
+workspace-state.json
+.profile
+
+# 提取缓存
+extract/raw_content/
