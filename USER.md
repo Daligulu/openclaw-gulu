@@ -5,6 +5,7 @@
 - **Pronouns:** （未知）
 - **Timezone:** Asia/Shanghai (GMT+8)
 - **Notes:** 通过 Telegram 使用，配置了 x-skills 和 Agent Reach。
+- **Obsidian 邮箱:** gaojunfeng1108@gmail.com
 
 ## Context
 
