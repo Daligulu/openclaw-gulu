@@ -207,6 +207,53 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🔄 Auto Rollback Mechanism (自动回滚)
+
+When you say **"自动回滚"**, I will automatically execute:
+
+1. `cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.bak`
+2. Set a system `at` job to rollback + restart after 5 minutes
+3. Tell you the job ID
+4. Then start modifying the config
+
+### When to Use
+
+✅ **Use when:**
+- Modifying `openclaw.json`
+- Changing channel configuration
+- Changing proxy routing
+- Updating plugins
+- Modifying model configuration
+
+❌ **Not needed for:**
+- Reading files, writing articles, or pure read operations
+
+### Manual Steps Before Config Changes
+
+1. **Git snapshot first:**
+   ```bash
+   cd ~/clawd && git add -A && git commit -m "pre-change snapshot"
+   ```
+
+2. **To rollback manually:**
+   ```bash
+   # Backup
+   cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.bak
+   
+   # Set 5-minute auto-rollback
+   echo "cp ~/.openclaw/openclaw.json.bak ~/.openclaw/openclaw.json && openclaw gateway restart" | at now + 5 minutes
+   
+   # Confirm OK - cancel rollback:
+   atrm <job-id>
+   ```
+
+3. **If broke, restore:**
+   ```bash
+   git checkout .
+   ```
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
