@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-memory": {
+      "version": "1.0.0",
+      "installedAt": 1772818201780
+    },
+    "2nd-brain": {
+      "version": "1.3.0",
+      "installedAt": 1772818228701
+    },
+    "anki-connect": {
+      "version": "1.0.0",
+      "installedAt": 1772818272903
+    },
+    "clawdbot-security-check": {
+      "version": "2.2.2",
+      "installedAt": 1772818323711
+    },
+    "clawdefender": {
+      "version": "1.0.1",
+      "installedAt": 1772818329670
+    },
+    "aegis-shield": {
+      "version": "0.1.0",
+      "installedAt": 1772818335121
+    },
+    "agent-autopilot": {
+      "version": "1.4.1",
+      "installedAt": 1772818349165
+    },
+    "adaptive-reasoning": {
+      "version": "1.0.0",
+      "installedAt": 1772818455574
+    },
+    "agent-deep-research": {
+      "version": "2.1.3",
+      "installedAt": 1772818461991
+    },
+    "academic-research": {
+      "version": "1.0.0",
+      "installedAt": 1772818523985
+    },
+    "braindb": {
+      "version": "0.5.2",
+      "installedAt": 1772818593035
+    },
+    "agent-task-manager": {
+      "version": "1.0.0",
+      "installedAt": 1772818817042
+    }
+  }
+}
