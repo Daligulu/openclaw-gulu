@@ -48,6 +48,14 @@
     "agent-task-manager": {
       "version": "1.0.0",
       "installedAt": 1772818817042
+    },
+    "wechat-article-search": {
+      "version": "0.1.0",
+      "installedAt": 1773114611555
+    },
+    "read-wechat-article": {
+      "version": "1.0.0",
+      "installedAt": 1773115141270
     }
   }
 }
