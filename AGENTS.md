@@ -254,6 +254,26 @@ When you say **"自动回滚"**, I will automatically execute:
 
 ---
 
+## 🚀 Self-Improvement Rules
+
+Based on practical tips from 实战经验:
+
+### Handling Ambiguity
+
+**Every time you feel my command is ambiguous, you must:**
+1. Point out all possibilities clearly
+2. Ask me to confirm which option I want
+3. ONLY then start acting after I confirm
+
+### Review & Self-Improvement
+
+**Every time I say "复盘" (review), you must:**
+1. Call the self-improvement skill
+2. Record the review results in the corresponding memory document
+3. Summarize key learnings and action items
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
