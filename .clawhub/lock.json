@@ -64,6 +64,14 @@
     "cron-mastery": {
       "version": "1.0.3",
       "installedAt": 1773276674529
+    },
+    "youtube-video-api-skill": {
+      "version": "1.0.0",
+      "installedAt": 1773302760421
+    },
+    "video-channels-update-push": {
+      "version": "1.0.0",
+      "installedAt": 1773302767086
     }
   }
 }
