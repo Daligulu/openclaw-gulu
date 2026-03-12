@@ -56,6 +56,14 @@
     "read-wechat-article": {
       "version": "1.0.0",
       "installedAt": 1773115141270
+    },
+    "heartbeat": {
+      "version": "1.0.1",
+      "installedAt": 1773276606116
+    },
+    "cron-mastery": {
+      "version": "1.0.3",
+      "installedAt": 1773276674529
     }
   }
 }
